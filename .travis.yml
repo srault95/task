@@ -10,6 +10,11 @@ python:
   - "3.4"
   #- "3.5"
 
+
+branches:
+  only:
+    - upgrade-mongo
+    
 install: travis_retry .travis/install.sh
 
 script: .travis/run.sh
