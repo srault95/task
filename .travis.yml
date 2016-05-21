@@ -2,13 +2,13 @@ language: python
 sudo: false
 
 python:
-  - pypy
+  #- pypy
   - pypy3
-  - "2.7"
-  - "3.2"
-  - "3.3"
+  #- "2.7"
+  #- "3.2"
+  #- "3.3"
   - "3.4"
-  - "3.5"
+  #- "3.5"
 
 install: travis_retry .travis/install.sh
 
